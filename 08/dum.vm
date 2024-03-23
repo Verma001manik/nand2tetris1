@@ -1,0 +1,3 @@
+label IF_TRUE
+label WHILE
+goto WHILE  

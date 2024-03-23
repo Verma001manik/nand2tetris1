@@ -1,0 +1,29 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/02/Inc16.hdl
+
+/**
+CHIP Inc16 {
+    IN in[16];
+    OUT out[16];
+
+    PARTS:
+        // Increment each bit individually
+        Adder16(a=in[0], b[0]=True, out=out[0]);
+        Adder16(a=in[1], b[0]=True, out=out[1]);
+        Adder16(a=in[2], b[0]=True, out=out[2]);
+        Adder16(a=in[3], b[0]=True, out=out[3]);
+        Adder16(a=in[4], b[0]=True, out=out[4]);
+        Adder16(a=in[5], b[0]=True, out=out[5]);
+        Adder16(a=in[6], b[0]=True, out=out[6]);
+        Adder16(a=in[7], b[0]=True, out=out[7]);
+        Adder16(a=in[8], b[0]=True, out=out[8]);
+        Adder16(a=in[9], b[0]=True, out=out[9]);
+        Adder16(a=in[10], b[0]=True, out=out[10]);
+        Adder16(a=in[11], b[0]=True, out=out[11]);
+        Adder16(a=in[12], b[0]=True, out=out[12]);
+        Adder16(a=in[13], b[0]=True, out=out[13]);
+        Adder16(a=in[14], b[0]=True, out=out[14]);
+        Adder16(a=in[15], b[0]=True, out=out[15]);
+}
