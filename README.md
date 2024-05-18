@@ -1,6 +1,5 @@
-# nand2tetris1
 
-#Introduction 
+# Introduction 
 This repo consist's of the projects that were done while doing the nand2tetris course . 
 The course consists of building 12 projects(9 done :)). To know more about the projects and the course details please visit (https://www.nand2tetris.org/).
 
